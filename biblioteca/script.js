@@ -1,8 +1,3 @@
-/*
- * Definir una clase "Libro" que contenga las propiedades básicas de un libro,
- * como el título, autor, género, y número de páginas.
- */
-
 class Libro {
   constructor(titulo, autor, genero, numPaginas) {
     this.titulo = titulo;
@@ -81,6 +76,8 @@ class Biblioteca {
   }
 }
 
+let hola = "mundo";
+
 const biblioteca = new Biblioteca();
 
 const comic1 = new Libro("Spiderverse", "Edgar Delgado", "Comic", "120");
@@ -92,9 +89,9 @@ biblioteca.agregarLibro(comic2);
 biblioteca.agregarLibro(comic3);
 
 comic1.prestar();
+comic1.prestar();
 comic3.prestar();
 comic1.devolver();
+comic1.prestar();
 
-biblioteca.buscarLibro("120")
-
-
+biblioteca.buscarLibro("Spiderverse");
