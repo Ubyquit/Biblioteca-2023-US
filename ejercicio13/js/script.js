@@ -93,5 +93,5 @@ libro3.devolver();
 biblioteca.buscarLibro("SupeR");
 biblioteca.buscarLibro("Batman");
 
-biblioteca.eliminarLibro(libro3);
+biblioteca.eliminarLibro(libro2);
 biblioteca.mostrarCatalogo();
